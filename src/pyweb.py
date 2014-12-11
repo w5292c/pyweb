@@ -8,7 +8,7 @@ proxy_port = 8080;
 h = httplib.HTTPConnection(proxy_host, proxy_port);
 
 # Issue the 'GET' request
-h.request('GET', 'www.google.co.uk');
+h.request('GET', 'https://www.google.co.uk');
 r = h.getresponse();
 
 # Parse the headers information
